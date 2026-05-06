@@ -1,7 +1,7 @@
 # Notes 
 
 ```
-Notes : cargo.lock
+cargo.lock
 when using cargo build to make sure versions stay same as in the lock file use `cargo build --lock`.  
 ```
 ## guessing game
@@ -18,3 +18,10 @@ Macros are like functions but it solves the limitation of functions
 2. in case of funtion it is called , but in case of macro at compile time complete code is replaced  
 
 ```
+
+**Creates**
+```
+There are 2 types of crates 
+1. binary Crate - contains excutable file
+2. Library Crate - contains code which can be reused
+``` 
